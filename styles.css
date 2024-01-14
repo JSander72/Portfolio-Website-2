@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Add your own styling for the animated galaxy background */
+body {
+  background: url('galaxy_background.gif') fixed;
+  background-size: cover;
+  animation: galaxyAnimation 10s infinite linear;
+}
+
+@keyframes galaxyAnimation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
