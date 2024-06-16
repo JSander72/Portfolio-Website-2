@@ -1,15 +1,31 @@
-/* Define jumbotron styling */
-.jumbotron-section {
-  background-color: #092e53;
-  padding: 40px;
-  color: #010000;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.449);
-  opacity: 0;
-  transition: opacity 0.5s ease;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
 }
 
-.jumbotron-section.active {
-  opacity: 1;
+.navbar {
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #e9ecef;
 }
